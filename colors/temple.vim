@@ -51,7 +51,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi StatuslineTerm guifg=#000000 guibg=NONE gui=bold cterm=bold
   hi StatuslineTermNC guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   " hi VertSplit guifg=#f0f0f0 guibg=#ff00ff gui=NONE cterm=NONE
-  hi VertSplit guifg=#f0f0f0 guibg=#f0f0f0 gui=NONE cterm=NONE
+  hi VertSplit guifg=#f0f0f0 guibg=#0f0f0f gui=NONE cterm=NONE
   hi Pmenu guifg=NONE guibg=#f0f0f0 gui=NONE cterm=NONE
   hi PmenuSel guifg=#0f0f0f guibg=#f0f0f0 gui=NONE cterm=NONE
   hi PmenuSbar guifg=NONE guibg=#f0f0f0 gui=NONE cterm=NONE
@@ -61,7 +61,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi TabLineSel guifg=NONE guibg=NONE gui=NONE cterm=NONE
   hi ToolbarLine guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
   hi ToolbarButton guifg=NONE guibg=NONE gui=bold cterm=bold
-  hi NonText guifg=#000000 guibg=NONE gui=NONE cterm=NONE
+  hi NonText guifg=#f0f0f0 guibg=NONE gui=NONE cterm=NONE
   hi SpecialKey guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   hi Folded guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi Visual guifg=NONE guibg=#32344a gui=NONE cterm=NONE
