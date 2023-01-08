@@ -51,9 +51,9 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi StatuslineTerm guifg=#000000 guibg=NONE gui=bold cterm=bold
   hi StatuslineTermNC guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   " hi VertSplit guifg=#f0f0f0 guibg=#ff00ff gui=NONE cterm=NONE
-  hi VertSplit guifg=#f0f0f0 guibg=#0f0f0f gui=NONE cterm=NONE
+  hi VertSplit guifg=#f0f0f0 guibg=#f0f0f0 gui=NONE cterm=NONE
   hi Pmenu guifg=NONE guibg=#f0f0f0 gui=NONE cterm=NONE
-  hi PmenuSel guifg=#f0f0f0 guibg=#f0f0f0 gui=NONE cterm=NONE
+  hi PmenuSel guifg=#0f0f0f guibg=#f0f0f0 gui=NONE cterm=NONE
   hi PmenuSbar guifg=NONE guibg=#f0f0f0 gui=NONE cterm=NONE
   hi PmenuThumb guifg=NONE guibg=#f0f0f0 gui=NONE cterm=NONE
   hi TabLine guifg=#808080 guibg=NONE gui=NONE cterm=NONE
