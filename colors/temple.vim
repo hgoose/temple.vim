@@ -82,7 +82,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi MoreMsg guifg=#2a871f guibg=NONE gui=bold cterm=bold
   hi Question guifg=#2a871f guibg=NONE gui=bold cterm=bold
   hi Todo guifg=#000000 guibg=NONE gui=NONE cterm=NONE
-  hi MatchParen guifg=#F9FF3C guibg=NONE gui=NONE cterm=NONE
+  hi MatchParen guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   hi Search guifg=#000000 guibg=#32344a gui=NONE cterm=NONE
   hi IncSearch guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   hi WildMenu guifg=#000000 guibg=NONE gui=NONE cterm=NONE
@@ -104,8 +104,8 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Constant guifg=#ff0000 guibg=NONE gui=NONE cterm=NONE
   " hi String guifg=#00DB2B guibg=NONE gui=NONE cterm=NONE
   hi String guifg=#008700 guibg=NONE gui=NONE cterm=NONE
-  hi pythonFunction guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
-  hi method guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
+  hi pythonFunction guifg=#000000 guibg=NONE gui=NONE cterm=NONE
+  hi method guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   " hi FunctionCall guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   hi Function guifg=#5f00ff guibg=NONE gui=NONE cterm=NONE
   hi PreProc guifg=#8700ff guibg=NONE gui=NONE cterm=NONE
