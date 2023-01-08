@@ -20,7 +20,7 @@ syntax match method /\.\w*/
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   let g:terminal_ansi_colors = ['#000000', '#ca1243', '#2a871f', '#c18401',
-        \ '#2f6aea', '#a626a4', '#0184bc', '#0f0f0f', '#808080', '#ca1243',
+        \ '#2f6aea', '#a626a4', '#0184bc', '#f0f0f0', '#808080', '#ca1243',
         \ '#2a871f', '#c18401', '#2f6aea', '#a626a4', '#0184bc', '#ffffff']
   if has('nvim')
     let g:terminal_color_0 = '#000000'
@@ -30,7 +30,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     let g:terminal_color_4 = '#2f6aea'
     let g:terminal_color_5 = '#a626a4'
     let g:terminal_color_6 = '#0184bc'
-    let g:terminal_color_7 = '#0f0f0f'
+    let g:terminal_color_7 = '#f0f0f0'
     let g:terminal_color_8 = '#808080'
     let g:terminal_color_9 = '#ca1243'
     let g:terminal_color_10 = '#2a871f'
@@ -43,26 +43,26 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   if get(g:, 'temple_transp_bg', 0) && !has('gui_running')
     hi Normal guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   else
-    hi Normal guifg=#0f0f0f guibg=#f0f0f0 gui=NONE cterm=NONE
+    hi Normal guifg=#000000 guibg=#f0f0f0 gui=NONE cterm=NONE
   endif
-  hi EndOfBuffer guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
+  hi EndOfBuffer guifg=#f0f0f0 guibg=NONE gui=NONE cterm=NONE
   hi Statusline guifg=#000000 guibg=NONE gui=bold cterm=bold
   hi StatuslineNC guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi StatuslineTerm guifg=#000000 guibg=NONE gui=bold cterm=bold
   hi StatuslineTermNC guifg=#808080 guibg=NONE gui=NONE cterm=NONE
-  " hi VertSplit guifg=#0f0f0f guibg=#ff00ff gui=NONE cterm=NONE
-  hi VertSplit guifg=#0f0f0f guibg=#0f0f0f gui=NONE cterm=NONE
-  hi Pmenu guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
-  hi PmenuSel guifg=#ffffff guibg=#0f0f0f gui=NONE cterm=NONE
-  hi PmenuSbar guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
-  hi PmenuThumb guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
+  " hi VertSplit guifg=#f0f0f0 guibg=#ff00ff gui=NONE cterm=NONE
+  hi VertSplit guifg=#f0f0f0 guibg=#0f0f0f gui=NONE cterm=NONE
+  hi Pmenu guifg=NONE guibg=#f0f0f0 gui=NONE cterm=NONE
+  hi PmenuSel guifg=#ffffff guibg=#f0f0f0 gui=NONE cterm=NONE
+  hi PmenuSbar guifg=NONE guibg=#f0f0f0 gui=NONE cterm=NONE
+  hi PmenuThumb guifg=NONE guibg=#f0f0f0 gui=NONE cterm=NONE
   hi TabLine guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi TabLineFill guifg=NONE guibg=NONE gui=NONE cterm=NONE
   hi TabLineSel guifg=NONE guibg=NONE gui=NONE cterm=NONE
   hi ToolbarLine guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
   hi ToolbarButton guifg=NONE guibg=NONE gui=bold cterm=bold
-  hi NonText guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
-  hi SpecialKey guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
+  hi NonText guifg=#f0f0f0 guibg=NONE gui=NONE cterm=NONE
+  hi SpecialKey guifg=#f0f0f0 guibg=NONE gui=NONE cterm=NONE
   hi Folded guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi Visual guifg=NONE guibg=#32344a gui=NONE cterm=NONE
   hi VisualNOS guifg=NONE guibg=#F9FF3C gui=NONE cterm=NONE
@@ -88,7 +88,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi WildMenu guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
   hi ColorColumn guifg=NONE guibg=NONE gui=NONE cterm=NONE
   " hi Cursor guifg=#ffffff guibg=NONE#000000 gui=NONE cterm=NONE
-  hi Cursor guifg=#f300ff guibg=NONE gui=NONE cterm=NONE
+  hi Cursor guifg=#f0f0f0 guibg=NONE gui=NONE cterm=NONE
   hi lCursor guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   hi DiffAdd guifg=NONE guibg=NONE gui=NONE cterm=NONE
   hi DiffChange guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
@@ -100,7 +100,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   " hi SpellRare guifg=#a626a4 guibg=NONE guisp=#a626a4 gui=undercurl cterm=underline
   hi SpellRare guifg=#07D7E5 guibg=NONE guisp=#a626a4 gui=undercurl cterm=underline
   hi Identifier guifg=#E5E5E5 guibg=NONE gui=NONE cterm=NONE
-  hi Statement guifg=#F300FF guibg=NONE gui=NONE cterm=NONE
+  hi Statement guifg=#8700ff guibg=NONE gui=NONE cterm=NONE
   hi Constant guifg=#F9FF3C guibg=NONE gui=NONE cterm=NONE
   " hi String guifg=#00DB2B guibg=NONE gui=NONE cterm=NONE
   hi String guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
@@ -108,7 +108,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi method guifg=#45FFC8 guibg=NONE gui=NONE cterm=NONE
   " hi FunctionCall guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   hi Function guifg=#45FFC8 guibg=NONE gui=NONE cterm=NONE
-  hi PreProc guifg=#F300FF guibg=NONE gui=NONE cterm=NONE
+  hi PreProc guifg=#8700ff guibg=NONE gui=NONE cterm=NONE
   hi Special guifg=#0184bc guibg=NONE gui=NONE cterm=NONE
   hi Tag guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
   hi Delimiter guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
