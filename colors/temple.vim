@@ -66,7 +66,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Folded guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi Visual guifg=NONE guibg=#32344a gui=NONE cterm=NONE
   hi VisualNOS guifg=NONE guibg=#F9FF3C gui=NONE cterm=NONE
-  hi LineNr guifg=#808080 guibg=NONE gui=NONE cterm=NONE
+  hi LineNr guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   hi FoldColumn guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi CursorLine guifg=NONE guibg=NONE gui=NONE cterm=NONE
   hi CursorLineNr guifg=NONE guibg=NONE gui=NONE cterm=NONE
@@ -99,7 +99,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi SpellLocal guifg=#0184bc guibg=NONE guisp=#0184bc gui=undercurl cterm=underline
   " hi SpellRare guifg=#a626a4 guibg=NONE guisp=#a626a4 gui=undercurl cterm=underline
   hi SpellRare guifg=#07D7E5 guibg=NONE guisp=#a626a4 gui=undercurl cterm=underline
-  hi Identifier guifg=#E5E5E5 guibg=NONE gui=NONE cterm=NONE
+  hi Identifier guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   hi Statement guifg=#8700ff guibg=NONE gui=NONE cterm=NONE
   hi Constant guifg=#F9FF3C guibg=NONE gui=NONE cterm=NONE
   " hi String guifg=#00DB2B guibg=NONE gui=NONE cterm=NONE
