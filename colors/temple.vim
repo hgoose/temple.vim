@@ -53,7 +53,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   " hi VertSplit guifg=#f0f0f0 guibg=#ff00ff gui=NONE cterm=NONE
   hi VertSplit guifg=#f0f0f0 guibg=#0f0f0f gui=NONE cterm=NONE
   hi Pmenu guifg=NONE guibg=#f0f0f0 gui=NONE cterm=NONE
-  hi PmenuSel guifg=#0f0f0f guibg=#f0f0f0 gui=NONE cterm=NONE
+  hi PmenuSel guifg=#f0f0f0 guibg=#f0f0f0 gui=NONE cterm=NONE
   hi PmenuSbar guifg=NONE guibg=#f0f0f0 gui=NONE cterm=NONE
   hi PmenuThumb guifg=NONE guibg=#f0f0f0 gui=NONE cterm=NONE
   hi TabLine guifg=#808080 guibg=NONE gui=NONE cterm=NONE
@@ -66,7 +66,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Folded guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi Visual guifg=NONE guibg=#32344a gui=NONE cterm=NONE
   hi VisualNOS guifg=NONE guibg=#F9FF3C gui=NONE cterm=NONE
-  hi LineNr guifg=#f0f0f0 guibg=NONE gui=NONE cterm=NONE
+  hi LineNr guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   hi FoldColumn guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi CursorLine guifg=NONE guibg=NONE gui=NONE cterm=NONE
   hi CursorLineNr guifg=NONE guibg=NONE gui=NONE cterm=NONE
