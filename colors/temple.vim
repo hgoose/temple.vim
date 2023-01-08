@@ -101,11 +101,11 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi SpellRare guifg=#07D7E5 guibg=NONE guisp=#a626a4 gui=undercurl cterm=underline
   hi Identifier guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   hi Statement guifg=#8700ff guibg=NONE gui=NONE cterm=NONE
-  hi Constant guifg=#F9FF3C guibg=NONE gui=NONE cterm=NONE
+  hi Constant guifg=#ff0000 guibg=NONE gui=NONE cterm=NONE
   " hi String guifg=#00DB2B guibg=NONE gui=NONE cterm=NONE
   hi String guifg=#008700 guibg=NONE gui=NONE cterm=NONE
-  hi pythonFunction guifg=#ff0000 guibg=NONE gui=NONE cterm=NONE
-  hi method guifg=#ff0000 guibg=NONE gui=NONE cterm=NONE
+  hi pythonFunction guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
+  hi method guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
   " hi FunctionCall guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   hi Function guifg=#5f00ff guibg=NONE gui=NONE cterm=NONE
   hi PreProc guifg=#8700ff guibg=NONE gui=NONE cterm=NONE
