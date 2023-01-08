@@ -87,7 +87,6 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi IncSearch guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   hi WildMenu guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   hi ColorColumn guifg=NONE guibg=NONE gui=NONE cterm=NONE
-  " hi Cursor guifg=#ffffff guibg=NONE#000000 gui=NONE cterm=NONE
   hi Cursor guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   hi lCursor guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   hi DiffAdd guifg=NONE guibg=NONE gui=NONE cterm=NONE
