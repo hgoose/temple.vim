@@ -111,7 +111,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Special guifg=#0184bc guibg=NONE gui=NONE cterm=NONE
   hi Tag guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   hi Delimiter guifg=#000000 guibg=NONE gui=NONE cterm=NONE
-  hi Type guifg=#5CF1FF guibg=NONE gui=NONE cterm=NONE
+  hi Type guifg=#ff0000 guibg=NONE gui=NONE cterm=NONE
   hi Directory guifg=#000000 guibg=NONE gui=bold cterm=bold
   hi Comment guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi Conceal guifg=#000000 guibg=NONE gui=NONE cterm=NONE
