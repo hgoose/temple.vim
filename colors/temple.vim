@@ -53,7 +53,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   " hi VertSplit guifg=#f0f0f0 guibg=#ff00ff gui=NONE cterm=NONE
   hi VertSplit guifg=#f0f0f0 guibg=#0f0f0f gui=NONE cterm=NONE
   hi Pmenu guifg=NONE guibg=#f0f0f0 gui=NONE cterm=NONE
-  hi PmenuSel guifg=#ffffff guibg=#f0f0f0 gui=NONE cterm=NONE
+  hi PmenuSel guifg=#0f0f0f guibg=#f0f0f0 gui=NONE cterm=NONE
   hi PmenuSbar guifg=NONE guibg=#f0f0f0 gui=NONE cterm=NONE
   hi PmenuThumb guifg=NONE guibg=#f0f0f0 gui=NONE cterm=NONE
   hi TabLine guifg=#808080 guibg=NONE gui=NONE cterm=NONE
@@ -61,8 +61,8 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi TabLineSel guifg=NONE guibg=NONE gui=NONE cterm=NONE
   hi ToolbarLine guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
   hi ToolbarButton guifg=NONE guibg=NONE gui=bold cterm=bold
-  hi NonText guifg=#f0f0f0 guibg=NONE gui=NONE cterm=NONE
-  hi SpecialKey guifg=#f0f0f0 guibg=NONE gui=NONE cterm=NONE
+  hi NonText guifg=#000000 guibg=NONE gui=NONE cterm=NONE
+  hi SpecialKey guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   hi Folded guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi Visual guifg=NONE guibg=#32344a gui=NONE cterm=NONE
   hi VisualNOS guifg=NONE guibg=#F9FF3C gui=NONE cterm=NONE
@@ -73,19 +73,19 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi CursorColumn guifg=NONE guibg=NONE gui=NONE cterm=NONE
   hi QuickFixLine guifg=NONE guibg=NONE gui=NONE cterm=NONE
   hi SignColumn guifg=#000000 guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi Sign guifg=#000000 guibg=NONE#000000 gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Sign guifg=#000000 guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi Underlined guifg=#2f6aea guibg=NONE gui=underline cterm=underline
-  hi Error guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
-  hi ErrorMsg guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
+  hi Error guifg=#000000 guibg=NONE gui=NONE cterm=NONE
+  hi ErrorMsg guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   hi ModeMsg guifg=#000000 guibg=NONE gui=bold cterm=bold
   hi WarningMsg guifg=#c18401 guibg=NONE gui=bold cterm=bold
   hi MoreMsg guifg=#2a871f guibg=NONE gui=bold cterm=bold
   hi Question guifg=#2a871f guibg=NONE gui=bold cterm=bold
-  hi Todo guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
+  hi Todo guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   hi MatchParen guifg=#F9FF3C guibg=NONE gui=NONE cterm=NONE
-  hi Search guifg=#ffffff guibg=#32344a gui=NONE cterm=NONE
-  hi IncSearch guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
-  hi WildMenu guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
+  hi Search guifg=#000000 guibg=#32344a gui=NONE cterm=NONE
+  hi IncSearch guifg=#000000 guibg=NONE gui=NONE cterm=NONE
+  hi WildMenu guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   hi ColorColumn guifg=NONE guibg=NONE gui=NONE cterm=NONE
   " hi Cursor guifg=#ffffff guibg=NONE#000000 gui=NONE cterm=NONE
   hi Cursor guifg=#f0f0f0 guibg=NONE gui=NONE cterm=NONE
@@ -103,17 +103,17 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Statement guifg=#8700ff guibg=NONE gui=NONE cterm=NONE
   hi Constant guifg=#F9FF3C guibg=NONE gui=NONE cterm=NONE
   " hi String guifg=#00DB2B guibg=NONE gui=NONE cterm=NONE
-  hi String guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
+  hi String guifg=#008700 guibg=NONE gui=NONE cterm=NONE
   hi pythonFunction guifg=#ff0000 guibg=NONE gui=NONE cterm=NONE
-  hi method guifg=#45FFC8 guibg=NONE gui=NONE cterm=NONE
+  hi method guifg=#ff0000 guibg=NONE gui=NONE cterm=NONE
   " hi FunctionCall guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   hi Function guifg=#5f00ff guibg=NONE gui=NONE cterm=NONE
   hi PreProc guifg=#8700ff guibg=NONE gui=NONE cterm=NONE
   hi Special guifg=#0184bc guibg=NONE gui=NONE cterm=NONE
-  hi Tag guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
-  hi Delimiter guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
+  hi Tag guifg=#000000 guibg=NONE gui=NONE cterm=NONE
+  hi Delimiter guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   hi Type guifg=#5CF1FF guibg=NONE gui=NONE cterm=NONE
-  hi Directory guifg=#ffffff guibg=NONE gui=bold cterm=bold
+  hi Directory guifg=#000000 guibg=NONE gui=bold cterm=bold
   hi Comment guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi Conceal guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   hi Ignore guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
