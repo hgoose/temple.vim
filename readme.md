@@ -1,5 +1,9 @@
 <p align="center">
-	<img src="https://i.imgur.com/EwZ0O9P.png">
+	<img src="https://i.imgur.com/E6sujsO.png">
+</p>
+
+<p align="center">
+	<img src="https://i.imgur.com/TdEsy91.png">
 </p>
 
 #### About
