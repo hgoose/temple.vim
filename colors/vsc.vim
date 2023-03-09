@@ -105,6 +105,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi String guifg=#ce9178 guibg=NONE gui=NONE cterm=NONE
   hi pythonFunction guifg=#dcdcaa guibg=NONE gui=NONE cterm=NONE
   hi pythonStatement guifg=#569cd6 guibg=NONE gui=NONE cterm=NONE
+  hi pythonBuiltin guifg=#4ec9b0 guibg=NONE gui=NONE cterm=NONE
   hi method guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
   " hi FunctionCall guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   hi Function guifg=#dcdcaa guibg=NONE gui=NONE cterm=NONE
@@ -115,7 +116,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Type guifg=#ff0000 guibg=NONE gui=NONE cterm=NONE
   hi Directory guifg=#ffffff guibg=NONE gui=bold cterm=bold
   hi Comment guifg=#6a9955 guibg=NONE gui=NONE cterm=NONE
-  hi pythonComment guifg=#ce9178 guibg=NONE gui=NONE cterm=NONE
+  " hi pythonComment guifg=#ce9178 guibg=NONE gui=NONE cterm=NONE
   hi Conceal guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
   hi Ignore guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi Title guifg=#ca1243 guibg=NONE gui=bold cterm=bold
