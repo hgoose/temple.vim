@@ -41,9 +41,9 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     let g:terminal_color_15 = '#ffffff'
   endif
   if get(g:, 'vsc_transp_bg', 0) && !has('gui_running')
-    hi Normal guifg=#000000 guibg=NONE gui=NONE cterm=NONE
+    hi Normal guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
   else
-    hi Normal guifg=#000000 guibg=#1e1e1e gui=NONE cterm=NONE
+    hi Normal guifg=#ffffff guibg=#1e1e1e gui=NONE cterm=NONE
   endif
   hi EndOfBuffer guifg=#1e1e1e guibg=NONE gui=NONE cterm=NONE
   hi Statusline guifg=#000000 guibg=NONE gui=bold cterm=bold
