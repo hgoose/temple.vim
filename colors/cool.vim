@@ -8,7 +8,7 @@
 set background=dark
 
 hi clear
-let g:colors_name = 'vsc'
+let g:colors_name = 'cool'
 
 let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 2
 
@@ -40,7 +40,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     let g:terminal_color_14 = '#0184bc'
     let g:terminal_color_15 = '#ffffff'
   endif
-  if get(g:, 'vsc_transp_bg', 0) && !has('gui_running')
+  if get(g:, 'cool_transp_bg', 0) && !has('gui_running')
     hi Normal guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
   else
     hi Normal guifg=#ffffff guibg=#282a36 gui=NONE cterm=NONE
