@@ -102,7 +102,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Statement guifg=#c586c0 guibg=NONE gui=NONE cterm=NONE
   hi Constant guifg=#ff0000 guibg=NONE gui=NONE cterm=NONE
   " hi String guifg=#00DB2B guibg=NONE gui=NONE cterm=NONE
-  hi String guifg=#ce9178 guibg=NONE gui=NONE cterm=NONE
+  hi String guifg=#dfdf85 guibg=NONE gui=NONE cterm=NONE
   hi pythonFunction guifg=#dcdcaa guibg=NONE gui=NONE cterm=NONE
   hi pythonStatement guifg=#569cd6 guibg=NONE gui=NONE cterm=NONE
   hi pythonBuiltin guifg=#4ec9b0 guibg=NONE gui=NONE cterm=NONE
