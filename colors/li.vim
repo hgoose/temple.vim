@@ -62,7 +62,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi ToolbarLine guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
   hi ToolbarButton guifg=NONE guibg=NONE gui=bold cterm=bold
   hi NonText guifg=#f0f0f0 guibg=NONE gui=NONE cterm=NONE
-  hi SpecialKey guifg=#000000 guibg=NONE gui=NONE cterm=NONE
+  hi SpecialKey guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
   hi Folded guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi Visual guifg=NONE guibg=#32344a gui=NONE cterm=NONE
   hi VisualNOS guifg=NONE guibg=#F9FF3C gui=NONE cterm=NONE
@@ -72,23 +72,23 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi CursorLineNr guifg=NONE guibg=NONE gui=NONE cterm=NONE
   hi CursorColumn guifg=NONE guibg=NONE gui=NONE cterm=NONE
   hi QuickFixLine guifg=NONE guibg=NONE gui=NONE cterm=NONE
-  hi SignColumn guifg=#000000 guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi Sign guifg=#000000 guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi SignColumn guifg=#ffffff guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Sign guifg=#ffffff guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi Underlined guifg=#2f6aea guibg=NONE gui=underline cterm=underline
-  hi Error guifg=#000000 guibg=NONE gui=NONE cterm=NONE
-  hi ErrorMsg guifg=#000000 guibg=NONE gui=NONE cterm=NONE
-  hi ModeMsg guifg=#000000 guibg=NONE gui=bold cterm=bold
+  hi Error guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
+  hi ErrorMsg guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
+  hi ModeMsg guifg=#ffffff guibg=NONE gui=bold cterm=bold
   hi WarningMsg guifg=#c18401 guibg=NONE gui=bold cterm=bold
   hi MoreMsg guifg=#2a871f guibg=NONE gui=bold cterm=bold
   hi Question guifg=#2a871f guibg=NONE gui=bold cterm=bold
-  hi Todo guifg=#000000 guibg=NONE gui=NONE cterm=NONE
-  hi MatchParen guifg=#000000 guibg=NONE gui=NONE cterm=NONE
-  hi Search guifg=#000000 guibg=#32344a gui=NONE cterm=NONE
-  hi IncSearch guifg=#000000 guibg=NONE gui=NONE cterm=NONE
-  hi WildMenu guifg=#000000 guibg=NONE gui=NONE cterm=NONE
+  hi Todo guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
+  hi MatchParen guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
+  hi Search guifg=#ffffff guibg=#32344a gui=NONE cterm=NONE
+  hi IncSearch guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
+  hi WildMenu guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
   hi ColorColumn guifg=NONE guibg=NONE gui=NONE cterm=NONE
-  hi Cursor guifg=#000000 guibg=NONE gui=NONE cterm=NONE
-  hi lCursor guifg=#000000 guibg=NONE gui=NONE cterm=NONE
+  hi Cursor guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
+  hi lCursor guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
   hi DiffAdd guifg=NONE guibg=NONE gui=NONE cterm=NONE
   hi DiffChange guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi DiffText guifg=NONE guibg=NONE gui=NONE cterm=NONE
